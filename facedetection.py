@@ -1,0 +1,2 @@
+client = SightengineClient('{api_user}', '{api_secret}')
+output = client.check('face-attributes').set_url('https://img.theweek.in/content/dam/week/news/entertainment/images/2018/10/31/vijay-sarkar.jpg')
